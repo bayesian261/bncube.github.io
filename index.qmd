@@ -1,0 +1,33 @@
+---
+about:
+  template: trestles
+  image: mariecurie.png
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com/mariecurie
+    - icon: github
+      text: github
+      href: https://github.com/bayesian261
+    - icon: envelope
+      text: mail
+      href: mailto:r195334vncube@gmail.com
+---
+
+**BONGANI NCUBE**
+
+interests:
+
+ - Bayesian Statistics
+
+\- Probability theory
+
+\- Survival Models
+
+\- Machine learning
+
+\- Experimental Design
+
+\- Longitudinal Data analysis
+
+ - Generalised linear and Additive models

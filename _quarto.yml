@@ -1,0 +1,44 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "*.md"
+    
+website:
+  title: "Bongani Ncube"
+  site-url: "https://bayesncube.com"
+  navbar:
+    background: "#536878"
+    left:
+      - href: blog/index.qmd
+        text: Blog
+      - href: publications/index.qmd
+        text: Publications
+      - href: software/index.qmd
+        text: Software
+      - href: talks/index.qmd
+        text: Talks
+      - href: teaching/index.qmd
+        text: Teaching
+      - href: about/index.qmd
+        text: About
+  page-footer:
+    left: "Copyright 2022, Bongani Ncube"
+    right:
+      - icon: github
+        href: https://github.com/bayesian261
+      - icon: twitter
+        href: https://twitter.com/mariecurie
+    background: "#536878"
+
+date-format: "D MMMM YYYY"
+
+format:
+  html:
+    theme: tango
+    css: styles.css
+    toc: true
+    html-math-method: katex
+    include-in-header:
+      file: header.html
